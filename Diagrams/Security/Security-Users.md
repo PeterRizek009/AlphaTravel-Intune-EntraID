@@ -1,13 +1,27 @@
 ```mermaid
 flowchart TB
 
-USERS["AlphaTravel\nUsers Security"]
+USERS["AlphaTravel<br/>Users Security"]
 
-TYPES["User Types\n- Standard Users\n- Sales\n- Sales Managers\n- Developers\n- IT Admins"]
+TYPES["User Types<br/>
+- Standard Users<br/>
+- Sales<br/>
+- Sales Managers<br/>
+- Developers<br/>
+- IT Admins"]
 
-CONTROLS["Security Controls\n- MFA\n- SSPR\n- RBAC Roles\n- Conditional Access\n- Sign-in Risk Policies"]
+CONTROLS["Security Controls<br/>
+- MFA<br/>
+- SSPR<br/>
+- RBAC Roles<br/>
+- Conditional Access<br/>
+- Sign-in Risk Policies"]
 
-POLICIES["Example Policies\n- MFA for all\n- Require compliant device for Managers/Finance\n- Block legacy auth\n- Block high-risk sign-ins"]
+POLICIES["Example Policies<br/>
+- MFA for all users<br/>
+- Require compliant device for Managers & Finance<br/>
+- Block legacy authentication<br/>
+- Block high-risk sign-ins"]
 
 USERS --> TYPES
 USERS --> CONTROLS
